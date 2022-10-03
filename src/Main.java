@@ -23,14 +23,27 @@ public class Main {
         }
         int m = 1;
         for (int e = 29000; e <= 29000 * 12; e = e + 29000) {
-            System.out.println("Месяц " + m + " , сумма накоплений равна " + e + " рублей");
+            System.out.println("Месяц " + m + ", сумма накоплений равна " + e + " рублей");
             m ++;
         }
-        int mo = 1;
-        var pr = 0.12;
-        for (var w = 29000.0; w <= (29000.0 + 29000.0 * pr) * 12; w = w + 29000.0 + (29000.0 * pr)) {
-            System.out.println("Месяц " + mo + " , сумма накоплений равна " + w + " рублей");
-            mo ++;
+        // вариант 2
+        int cashMonth = 29000;
+        int total = 0;
+        int m1 = 1;
+        for (int q = 1; q <= 12; q ++) {
+            total = total + cashMonth;
+            System.out.println("Месяц " + m1 + ", сумма накоплений равна " + total + " рублей");
+            m1 ++;
+        }
+
+        int cashMonth1 = 29000;
+        int tot = 0;
+        int month = 1;
+        for (int a = 1; a <= 12; a ++) {
+            tot = tot + tot / 12;
+            tot = tot + cashMonth1;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + tot + " рублей");
+            month ++;
         }
         System.out.println("сделал дз");
 
