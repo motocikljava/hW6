@@ -32,6 +32,7 @@ public class Main {
             System.out.println("Месяц " + mo + " , сумма накоплений равна " + w + " рублей");
             mo ++;
         }
+        System.out.println("сделал дз");
 
     }
 }
