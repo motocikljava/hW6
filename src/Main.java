@@ -47,5 +47,21 @@ public class Main {
         }
         System.out.println("сделал дз");
 
+        int nolYear = 0;
+        int periodProleta = 79;
+        int now = 2022;
+        int doNow = now - 200;
+        int posleNow = now + 100;
+        while (nolYear < posleNow) {
+            if (nolYear > doNow) {
+                System.out.println(nolYear);
+            }
+            nolYear = nolYear + periodProleta;
+        }
+        for (int n = 2; n <= 10; n ++) {
+            System.out.println(n * 2);
+        }
+        System.out.println("сделал дз");
+
     }
 }
